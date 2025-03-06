@@ -3,7 +3,7 @@ import yfinance as yf
 # Define the Bitcoin ticker symbol
 btc = yf.Ticker("BTC-USD")
 
-df = btc.history(start="2014-09-17", end="2025-03-01")
+df = btc.history(start="2014-09-17", end="2024-12-31")
 
 df = df[["Close"]]
 
